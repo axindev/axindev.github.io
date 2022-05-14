@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+h1 { font-size: 8vh; }
+p { font-size: 2vh; }
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+  
+  background-image: url('https://cdn.discordapp.com/attachments/959595774054912000/972757500736720906/RobloxScreenShot20220508_191044709.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+.container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  width: 50%;
+  height: 50%;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 3%;
+  
+  color: #4f545c;
+  text-align: left;
+  box-shadow: 0 0 50px #000000;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
