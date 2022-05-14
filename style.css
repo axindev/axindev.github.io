@@ -23,11 +23,11 @@ html, body {
 .card {
   width: 50%;
   height: auto;
-  background: #ffffff;
+  background: #181a1b;
   border-radius: 20px;
   padding: 3%;
   
-  color: #4f545c;
+  color: #b2aba1;
   text-align: left;
   box-shadow: 0 0 50px #000000;
   
